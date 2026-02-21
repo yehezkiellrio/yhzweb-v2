@@ -278,7 +278,7 @@ img { max-width: 100%; height: auto; display: block; }
   pointer-events: none;
 }
 .hero::after, .hero-modern::after {
-  content: '✦';
+  content: '✝';
   position: absolute;
   right: 6%;
   top: 50%;
@@ -772,7 +772,7 @@ img { max-width: 100%; height: auto; display: block; }
   border-color: rgba(42,154,154,0.15);
 }
 .newsletter-section::before {
-  content: '✦';
+  content: '✝';
   position: absolute;
   right: -20px; bottom: -30px;
   font-size: 10rem;
