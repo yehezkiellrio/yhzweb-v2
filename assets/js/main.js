@@ -65,6 +65,8 @@
   function performSearch(query) {
     const term = query.toLowerCase().trim();
     let visible = 0;
+    const seriesBanner = document.querySelector('.series-banner');
+    if (seriesBanner) seriesBanner.style.display = term ? 'none' : '';
 
     postCards.forEach(card => {
       const title = card.querySelector('.post-title a');
@@ -124,6 +126,8 @@
   }
 
   function applyFilter(tag) {
+    const seriesBanner = document.querySelector('.series-banner');
+    if (seriesBanner) seriesBanner.style.display = (tag === 'all' || tag === 'Personal') ? '' : 'none';
     postCards.forEach(card => {
       if (tag === 'all') {
         card.style.display = '';

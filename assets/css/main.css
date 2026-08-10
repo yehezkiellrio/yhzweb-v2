@@ -1223,3 +1223,13 @@ button:focus-visible, input:focus-visible, a:focus-visible { outline: 2.5px soli
 .post-card.has-thumb .post-meta .read-time {
   display: none;
 }
+
+
+/* 2026 new-series additions */
+.series-banner{display:grid;grid-template-columns:1.2fr .8fr;gap:1.25rem;padding:1.35rem;margin:.9rem 0 1.5rem;border:1px solid var(--border);border-radius:20px;background:linear-gradient(145deg,rgba(26,107,107,.07),rgba(184,137,42,.06));position:relative;overflow:hidden}
+.series-banner::after{content:'II';position:absolute;right:1rem;top:-1.8rem;font:700 8rem/1 var(--font-display);color:rgba(26,107,107,.045);pointer-events:none}
+.series-banner-kicker{font-size:.68rem;text-transform:uppercase;letter-spacing:.14em;font-weight:700;color:var(--gold)}
+.series-banner h3{font-size:1.65rem;margin:.25rem 0 .45rem}.series-banner p{font-size:.9rem;color:var(--text-muted);margin:0;max-width:58ch}
+.series-banner-links{display:grid;gap:.55rem;align-content:center;position:relative;z-index:1}.series-banner-links a{display:block;padding:.75rem .85rem;border-radius:12px;background:var(--bg-card);border:1px solid var(--border);font-size:.82rem;font-weight:600;color:var(--text)}.series-banner-links a:hover{border-color:var(--teal);color:var(--teal);transform:translateX(2px)}.series-banner-links small{display:block;color:var(--gold);text-transform:uppercase;letter-spacing:.09em;font-size:.62rem;margin-bottom:.15rem}.post-series{font-size:.69rem;color:var(--gold);font-weight:700}.new-post{border-color:color-mix(in srgb,var(--teal) 16%,var(--border))}
+@media(max-width:720px){.series-banner{grid-template-columns:1fr}.series-banner::after{font-size:6rem}}
+
