@@ -54,3 +54,6 @@
 .article-reflection p { margin:0; font-family:var(--font-display); font-size:1.25rem; line-height:1.6; }
 @media (max-width:960px){ .article-layout{grid-template-columns:1fr}.article-side{position:static;grid-template-columns:1fr 1fr}.article-side .toc-card{display:none}.article-title{max-width:20ch}.article-main{padding-top:1.2rem} }
 @media (max-width:620px){ .article-hero{border-radius:20px;padding:1.65rem 1.3rem}.article-card{border-radius:18px}.article-body{padding:1.55rem 1.2rem}.article-side{grid-template-columns:1fr}.article-endnav{grid-template-columns:1fr}.article-endlink.prev,.article-endlink.next{grid-column:1;text-align:left}.article-meta{font-size:.76rem} }
+
+.series-link.series-future { opacity:.72; border-style:dashed; cursor:default; }
+.series-link.series-future strong { font-weight:500; }

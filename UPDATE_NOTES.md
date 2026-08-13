@@ -20,3 +20,11 @@
 ## Editorial details
 - Reading times are based on approximate word count (~225 wpm)
 - Part I includes a short content note because it discusses family conflict, mental health, hallucinations, and suicidal thoughts
+
+
+## 13 Aug 2026 — Part II refresh
+- Replaced `posts/who-im-becoming.html` with the latest Part II manuscript.
+- Added **Maybe There Will Be a Part III** as the closing chapter/teaser.
+- Updated Part II reading time to **34 min** (7,527 words at ~225 wpm).
+- Removed `of II` wording from Part I/Part II series labels so the series can continue naturally.
+- Refreshed the Part II table of contents and homepage series copy.
