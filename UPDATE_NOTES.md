@@ -28,3 +28,8 @@
 - Updated Part II reading time to **34 min** (7,527 words at ~225 wpm).
 - Removed `of II` wording from Part I/Part II series labels so the series can continue naturally.
 - Refreshed the Part II table of contents and homepage series copy.
+
+## 15 Aug 2026 — Part I major update
+- Replaced `posts/before-i-became-who-i-am.html` with the latest upgraded Part I manuscript.
+- Expanded childhood/bullying, indigo-to-schizoaffective identity arc, audible voices, doubt/faith rediscovery, grace, and the new circular ending.
+- Updated Part I table of contents and reading time to 54 minutes.
